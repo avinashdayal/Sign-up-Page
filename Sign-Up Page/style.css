@@ -1,0 +1,108 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form-title {
+    text-align: left;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+
+.form-wrapper {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border-bottom-color: #0073e6;
+}
+
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+}
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+}
+
+
+button {
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer #social {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

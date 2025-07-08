@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple and responsive signup form.">
+    <title>Signup Form</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    
+        <h2 class="form-title">Signup</h2>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="form-wrapper">
+            <form class="container">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <input type="date" required>
+
+                <!-- Radio Buttons -->
+                <div class="radio-group">
+                    <input type="radio" id="student" name="role" value="Student" required>
+                    <label for="student">Student</label>
+                    <input type="radio" id="employee" name="role" value="Employee" required>
+                    <label for="employee">Employee</label>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to all the Terms and Conditions</label>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="social">
+            <h4>Connect with us</h4>
+            <a href="https://github.com/avinashdayal" target="_blank">Github</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/avinash-dayal/" target="_blank">LinkedIn</a>
+        </div>
+        Created by: @ AvinashDayal
+    </footer>
+  
+
+</body>
+</html>
